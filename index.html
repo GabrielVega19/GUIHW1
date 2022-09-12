@@ -1,0 +1,73 @@
+<!--
+GUI Assignment: Creating Your First Web Page, displays a basic static webpage 
+Gabriel Vega, UMass Lowell Computer Science, gabriel_vega@student.uml.edu
+Copyright (c) 2022 by Gabriel. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by GV on September 11th, 2022 at 9:39pm
+-->
+
+<!DOCTYPE html>
+<html lang="en" style="padding:0px; margin:0px;">
+<!-- the header for the page -->
+<head>
+    <!-- declairs the character encoding for the page -->
+    <meta charset="utf-8">
+    <!-- the name on the tab -->
+    <title>Gabriel's Website</title>
+    <!-- link to the css for the page -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- the main content for the page -->
+<body class="normalize">
+    <!-- This will hold the background image and all the content on the page -->
+    <div class="bgImage fullScreen flexCenter">
+        <!-- holds the stuff for the first section -->
+        <div class="section1 flexCenter">
+            <!-- div in the center of the page for the overlay and the text and subtext -->
+            <div class="overlay flexCenter">
+                <p class="centerText">Welcome to Gabriel's Website</p>
+                <p class="subtext">Not much to it yet, maybe one day, so for now just enjoy the view, and this button that may or may not be a rick roll.</p>
+            </div>
+
+            <!-- this is the button and the text in the button -->
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="button">
+                <p class="buttonText">Click Me</p>
+            </a>
+        </div>
+
+        <!-- holds the stuff for the table or second section -->
+        <div class="overlay flexCenter section2">
+            <!-- text above table -->
+            <p class="subtext">Here is some information about my gekos</p>
+            <!-- this is the table for the information about my gekos -->
+            <table class="table">
+                <tr>
+                    <th>Gary</th>
+                    <th>Mushu</th>
+                </tr>
+                <tr>
+                    <td>5 years old</td>
+                    <td>5 years old</td>
+                </tr>
+                <tr>
+                    <td>yellow skin</td>
+                    <td>dark gray skin</td>
+                </tr>
+                <tr>
+                    <td>Missing a tail</td>
+                    <td>Has a tail</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+        </a>
+    </p>
+</body>
+</html>

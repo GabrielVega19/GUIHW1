@@ -1,0 +1,118 @@
+/* This sets all the properties for the background image */
+.bgImage {
+    background-image: url("../images/retrosunset.jpeg");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+/* This sets the css for the big center text */
+.centerText {
+    color: white;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 25px 40px;
+    text-align: center;
+}
+
+/* This gets rid of weird padding and margins on the body*/
+.normalize {
+    padding:0px; 
+    margin:0px;
+}
+
+/* this sets the div to be 100 vh minimum*/
+.fullScreen {
+    min-height: 100vh;
+}
+
+/* This creates a flexbox and then centers all components and sets direction to column*/
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* This sets the css for the overlay bg, opacity, margin, border etc*/
+.overlay {
+    background-color:rgba(0,0,0, .3);
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 60%;
+    border: 2px solid black;
+    margin: 50px 0px 0px 0px;
+}
+
+/* This sets the css for the button */
+.button {
+    border-radius: 5px;
+    padding: 10px 20px; 
+    margin: 50px 0px 0px 0px;
+    background-color: rgba(53,212,212, .8);
+    text-decoration: none;
+}
+
+/* This sets the css for the button text */
+.buttonText {
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* This sets the css for the text under the big center text*/
+.subtext {
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    width: 75%;
+}
+
+/* this sets the margins for the first section and sets to full width and height */
+.section1 {
+    margin: 230px 0px 250px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+/* this  sets the width for the table */
+.table {
+    width: 50%;
+}
+
+/* this sets the margins for the second section and sets to full width and height */
+.section2 {
+    margin: 0px 0px 100px 0px;
+}
+
+/* this sets the text styling for the table header */
+th {
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+/* this sets the text styling for the table data */
+td {
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    padding: 5px 0px;
+}
